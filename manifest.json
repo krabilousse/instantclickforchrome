@@ -1,0 +1,19 @@
+{
+  "name": "InstantClick for Chrome",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Load pages faster!",
+  "homepage_url": "https://github.com/dieulot/instantclick",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": ["js/instantclick.min.js"]
+}
