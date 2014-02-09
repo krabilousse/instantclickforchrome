@@ -3,6 +3,8 @@ instantclickforchrome
 
 A Simple Google Chrome extension that loads linked pages faster. Uses [InstantClick by dieulot](http://instantclick.io/).
 
+## Warning
+This extension causes additionnal traffic on your network. Use if you do not care about a little extra strain on your bandwidth.
 
 ## Installation
 
